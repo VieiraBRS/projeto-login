@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* 
+    Midia Query Mobile
     Paleta de cores
     Azul: #092AE0
     Lilás: #2C44B8
@@ -37,6 +38,9 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.596);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
