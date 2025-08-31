@@ -21,6 +21,10 @@
         float: right;
         width: 70%;
     }
+
+    div.campo > input {
+         width: calc(100% - 10%);
+    }
 }
 /* TELAS MAIORES */
 @media screen and (min-width: 992px) {
@@ -51,5 +55,9 @@
     div#formulario > p {
     font-size: 1.2em;
     margin: 20px 0px;
+    }
+
+    div.campo > input {
+         width: calc(100% - 10%);
     }
 }
