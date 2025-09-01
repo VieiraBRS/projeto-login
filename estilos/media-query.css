@@ -23,7 +23,7 @@
     }
 
     div.campo > input {
-         width: calc(100% - 10%);
+         width: calc(100% - 44px);
     }
 }
 /* TELAS MAIORES */
@@ -58,6 +58,6 @@
     }
 
     div.campo > input {
-         width: calc(100% - 10%);
+         width: calc(100% - 44px);
     }
 }
